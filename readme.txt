@@ -1,1 +1,1 @@
-This is the first version of a webiste being developed for SquarePeg Woodworks, LLC
+This is the first version of a website being developed for SquarePeg Woodworks, LLC
