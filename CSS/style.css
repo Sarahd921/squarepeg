@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+}
+
+/*----------Base Styles------------*/
+
+body {}
+
+h1 {
+   font-family:'Questrial';
+   font-size: 2rem;
+   margin: 10px 0;
+}
+/*----------Main Styles------------*/
+
+.main-header {
+  height: 320px;
+  background: linear-gradient(slategrey, transparent 100%);
+  background-size: cover;
+  border-bottom: 3px solid slategrey;
+  text-align: center;
+}
+
+.logo {
+  width: 600px;
+  padding: 20px;
+}
+
+.intro{
+  font-size: 1.5rem;
+  text-align: center;
+  font-family:'Questrial';
+  padding-top: 10px;
+}
+
+.footer {
+  text-align:center;
+  font-family:'Questrial';
+  font-size: 1rem;
+  padding-top: 5px;
+}
+
+/*----------Navigation------------*/
+
+nav {
+  font-family:'Questrial';
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+  list-style: none;
+}
+
+nav ul {
+  margin: 0 10px;
+  padding: 0;
+  }
+
+nav li {
+  display: inline-block; 
+  list-style:none;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+  list-style: none;
+}
+
+/*----------Media Queries------------*/
+
+@media (max-width:768px){
+ 
+h1{
+  
+}
+
+.main-header {
+    max-height: 150px;
+    padding: 50px 25px;
+    border-bottom: none;
+  }
+  
+.logo {
+  max-height: 150px; 
+  width: 75%;
+  margin-bottom: 20%;
+}
+
+.intro {
+  padding-top: 10px;
+}
+}
